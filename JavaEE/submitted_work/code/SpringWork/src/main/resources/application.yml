@@ -1,0 +1,44 @@
+
+server:
+
+  port: 521
+
+# Sa-Token
+sa-token:
+  # token name (cookie name)
+  token-name: satoken
+  # token lifespan ,default 30 days, -1 means forever exist
+  timeout: 2592000
+  # token temporary lifespan
+  activity-timeout: -1
+  # Concurrent login (true means permit, false means forbid, the latter replaces the former)
+  is-concurrent: true
+  # whether share a token  (true means share token, false means create a new token)
+  is-share: false
+  # token style
+  token-style: uuid
+  # whether output operate log
+  is-log: false
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+
+  datasource:
+    url: jdbc:mysql://150.158.47.16:3306/javaee
+    username: javaee
+    password: 813201
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  mail:
+    default-encoding: utf-8
+    # host address
+    host: smtp.163.com
+    # mailbox name
+    username: tang813201@163.com
+    # authorization code (not password)
+    password: MFXTSGCTXSHWUSOC
+    protocol: smtp
+
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/school/CodeWork/Java/SpringWork/src/main/java/com/example/springwork</OriginalElement>
+  <nodes>
+    <node x="264.0" y="1588.0">com.example.springwork.entity.ParticipatePK</node>
+    <node x="537.0" y="1347.0">com.example.springwork.status.LoginStatus</node>
+    <node x="495.0" y="1588.0">com.example.springwork.entity.MemberPK</node>
+    <node x="473.0" y="313.0">com.example.springwork.service.impl.ActivityServiceImpl</node>
+    <node x="295.0" y="1931.0">com.example.springwork.repository.ClubRepo</node>
+    <node x="791.0" y="1347.0">com.example.springwork.entity.Member</node>
+    <node x="0.0" y="1931.0">com.example.springwork.repository.ParticipateRepo</node>
+    <node x="955.0" y="290.0">com.example.springwork.service.impl.UserServiceImpl</node>
+    <node x="1022.0" y="1453.0">com.example.springwork.service.impl.PictureServiceImpl</node>
+    <node x="1554.0" y="1783.0">com.example.springwork.repository.MemberRepo</node>
+    <node x="1022.0" y="1347.0">com.example.springwork.service.PictureService</node>
+    <node x="641.0" y="1783.0">com.example.springwork.repository.ActivityRepo</node>
+    <node x="273.0" y="1347.0">com.example.springwork.util.AesUtil</node>
+    <node x="1419.0" y="1588.0">com.example.springwork.controller.EmailController</node>
+    <node x="726.0" y="1588.0">com.example.springwork.entity.Participate</node>
+    <node x="381.0" y="1783.0">com.example.springwork.SpringWorkApplication</node>
+    <node x="955.0" y="0.0">com.example.springwork.service.UserService</node>
+    <node x="1240.0" y="1783.0">com.example.springwork.repository.ApplicationRepo</node>
+    <node x="0.0" y="1347.0">com.example.springwork.status.DeleteStatus</node>
+    <node x="965.0" y="1783.0">com.example.springwork.repository.UserRepo</node>
+    <node x="483.0" y="991.0">com.example.springwork.controller.UserController</node>
+    <node x="0.0" y="0.0">com.example.springwork.service.ClubService</node>
+    <node x="0.0" y="428.0">com.example.springwork.service.impl.ClubServiceImpl</node>
+    <node x="473.0" y="0.0">com.example.springwork.service.ActivityService</node>
+    <node x="1379.0" y="0.0">com.example.springwork.controller.ClubController</node>
+    <node x="1577.0" y="991.0">com.example.springwork.status.AddStatus</node>
+    <node x="232.0" y="1783.0">com.example.springwork.vo.UserVo</node>
+    <node x="1346.0" y="991.0">com.example.springwork.entity.User</node>
+    <node x="0.0" y="991.0">com.example.springwork.controller.ActivityController</node>
+    <node x="1596.0" y="1347.0">com.example.springwork.util.MD5Util</node>
+    <node x="1108.0" y="991.0">com.example.springwork.entity.Club</node>
+    <node x="1319.0" y="1347.0">com.example.springwork.util.FastDFSUtil</node>
+    <node x="957.0" y="1588.0">com.example.springwork.entity.Application</node>
+    <node x="1673.0" y="1588.0">com.example.springwork.util.RandomUtil</node>
+    <node x="877.0" y="991.0">com.example.springwork.entity.Activity</node>
+    <node x="0.0" y="1783.0">com.example.springwork.config.SwaggerConfig</node>
+    <node x="1188.0" y="1588.0">com.example.springwork.entity.ApplicationPK</node>
+    <node x="0.0" y="1588.0">com.example.springwork.status.SignUpStatus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.springwork.service.impl.UserServiceImpl" target="com.example.springwork.service.UserService" relationship="REALIZATION">
+      <point x="0.0" y="-155.5" />
+      <point x="0.0" y="120.0" />
+    </edge>
+    <edge source="com.example.springwork.service.impl.ActivityServiceImpl" target="com.example.springwork.service.ActivityService" relationship="REALIZATION">
+      <point x="0.0" y="-224.5" />
+      <point x="0.0" y="131.5" />
+    </edge>
+    <edge source="com.example.springwork.service.impl.ClubServiceImpl" target="com.example.springwork.service.ClubService" relationship="REALIZATION">
+      <point x="0.0" y="-259.0" />
+      <point x="0.0" y="189.0" />
+    </edge>
+    <edge source="com.example.springwork.service.impl.PictureServiceImpl" target="com.example.springwork.service.PictureService" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.7833333333333332" showDependencies="true" x="891.5700660308144" y="843.6100513573001" />
+  <SelectedNodes>
+    <node>com.example.springwork.service.ActivityService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>内部类</Category>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

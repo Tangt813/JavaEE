@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://150.158.47.16:3306/javaee</property>
+        <!--    连接池大小-->
+        <property name="connection.pool.size">1</property>
+        <!--   显示sql语句 -->
+        <property name="hibernate.show_sql">true</property>
+        <!--   一次从数据库中取得的记录条数-->
+        <property name="jdbc.fetch_size">50</property>
+        <!--      批量插入,删除和更新时每次操作的记录数-->
+        <property name="jdbc.batch_size">23</property>
+        <!-- SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <mapping resource="Club.hbm.xml"/>
+        <mapping resource="User.hbm.xml"/>
+        <mapping class="com.example.springwork.entity.Club"/>
+        <mapping class="com.example.springwork.entity.User"/>
+        <mapping resource="Activity.hbm.xml"/>
+        <mapping class="com.example.springwork.entity.Activity"/>
+        <mapping class="com.example.springwork.entity.Member"/>
+        <mapping resource="Member.hbm.xml"/>
+        <mapping class="com.example.springwork.entity.Participate"/>
+        <mapping resource="Participate.hbm.xml"/>
+        <mapping resource="Join.hbm.xml"/>
+        <mapping class="com.example.springwork.entity.Join"/>
+        <mapping class="com.example.springwork.entity.Application"/>
+        <mapping resource="Application.hbm.xml"/>
+
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>
